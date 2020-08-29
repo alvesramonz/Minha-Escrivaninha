@@ -12,7 +12,7 @@ function Login() {
     <Container>
       <h1>Login Page</h1>
 
-      <LoginForm submit={() => submit()} />
+      <LoginForm submit={submit} />
     </Container>
   );
 }
