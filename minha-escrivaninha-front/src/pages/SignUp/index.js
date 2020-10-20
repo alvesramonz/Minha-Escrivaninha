@@ -19,8 +19,8 @@ const schema = Yup.object().shape({
 function SignUp() {
   // const dispatch = useDispatch();
 
-  function handleSubmit({ email, password }) {
-    console.tron.log(email, password);
+  function handleSubmit({ name, email, password }) {
+    console.tron.log(name, email, password); /* Só imprimindo no Reactotron */
   }
 
   return (

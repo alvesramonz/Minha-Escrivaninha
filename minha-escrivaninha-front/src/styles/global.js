@@ -13,12 +13,19 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  *:focus {
+    outline: 0;
+  }
+
+  html, body, #root {
+    height: 100%;
+  }
+
   a {
     text-decoration: none;
   }
 
   body {
-    background: #FCD0A1;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -27,13 +34,11 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 14px Roboto, sans-serif;
+    font: 14px 'Roboto', sans-serif;
   }
 
-  #root {
-    max-width: 1154px;
-    margin: 0 auto;
-    padding: 0 20px 50px;
+  ul {
+    list-style: none;
   }
 
   button {

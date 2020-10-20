@@ -13,7 +13,7 @@ const schema = Yup.object().shape({
   password: Yup.string().min(6).required('A senha é obrigatória'),
 });
 
-function Login() {
+function SignIn() {
   const dispatch = useDispatch();
 
   function handleSubmit({ email, password }) {
@@ -33,4 +33,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignIn;
